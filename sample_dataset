@@ -222,5 +222,1077 @@
                 "content": "3.0"
             }
         ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: When to expect it \ntext: I thought I could download the card with a code and use right away, instead I’m still waiting for the card to arrive, I guess via mail.\n\ntitle: Ready right away \ntext: I actually expected the card to come in the mail, but it was ready instantly.\n\ntitle: Was playing the moment my card went through. \ntext: Quickest was to get a game card I found. Literally a minute and a half.\n\nSummary of the reviews: There are mixed experiences regarding the delivery speed of the card. One user expected to download the card with a code for immediate use but is still waiting for it to arrive by mail [0]. Another user anticipated receiving the card by mail but found it was ready instantly [1]. A third user reported that obtaining the game card was extremely fast, taking only a minute and a half [2]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: The time it takes to receive product. \ntext: I did not like the amount of time it took to receive this product.I used the card for playstation games.\n\ntitle: Ready right away \ntext: I actually expected the card to come in the mail, but it was ready instantly.\n\ntitle: Was playing the moment my card went through. \ntext: Quickest was to get a game card I found. Literally a minute and a half.\n\nSummary of the reviews: The delivery speed of the card has received mixed feedback from users. One user expressed dissatisfaction with the time it took to receive the product, indicating a delay in delivery [0]. In contrast, another user was pleasantly surprised to find that the card was ready instantly, contrary to their expectation of a mail delivery [1]. A third user highlighted the efficiency, noting that they were able to start playing within a minute and a half of purchasing the card [2]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: The time it takes to receive product. \ntext: I did not like the amount of time it took to receive this product.I used the card for playstation games.\n\ntitle: When to expect it \ntext: I thought I could download the card with a code and use right away, instead I’m still waiting for the card to arrive, I guess via mail.\n\ntitle: Was playing the moment my card went through. \ntext: Quickest was to get a game card I found. Literally a minute and a half.\n\nSummary of the reviews: The delivery speed of the card has received mixed feedback from users. One user expressed dissatisfaction with the time it took to receive the product, noting that they used the card for PlayStation games [0]. Another user was disappointed because they expected to download the card with a code for immediate use but are still waiting for it to arrive via mail [1]. In contrast, a third user praised the quick delivery, stating that they received the game card in just a minute and a half [2]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: The time it takes to receive product. \ntext: I did not like the amount of time it took to receive this product.I used the card for playstation games.\n\ntitle: When to expect it \ntext: I thought I could download the card with a code and use right away, instead I’m still waiting for the card to arrive, I guess via mail.\n\ntitle: Ready right away \ntext: I actually expected the card to come in the mail, but it was ready instantly.\n\nSummary of the reviews: The delivery speed of the card has received mixed feedback from users. One user expressed dissatisfaction with the lengthy delivery time, noting that they used the card for PlayStation games [0]. Another user was disappointed because they expected to download the card with a code for immediate use but are still waiting for it to arrive by mail [1]. In contrast, a third user was pleasantly surprised to find that the card was ready instantly, despite initially expecting it to be delivered by mail [2]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: When to expect it \ntext: I thought I could download the card with a code and use right away, instead I’m still waiting for the card to arrive, I guess via mail.\n\ntitle: Ready right away \ntext: I actually expected the card to come in the mail, but it was ready instantly.\n\nSummary of the reviews: The delivery speed of the card has elicited mixed experiences from users. One user anticipated being able to download and use the card immediately with a code but is still waiting for it to arrive by mail [0]. Conversely, another user expected the card to be mailed but found it was available for immediate use [1]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: When to expect it \ntext: I thought I could download the card with a code and use right away, instead I’m still waiting for the card to arrive, I guess via mail.\n\ntitle: Ready right away \ntext: I actually expected the card to come in the mail, but it was ready instantly.\n\ntitle: Was playing the moment my card went through. \ntext: Quickest was to get a game card I found. Literally a minute and a half.\n\nSummary of the reviews: The delivery speed of the card has varied experiences among users. One user anticipated an immediate download with a code but is still waiting for the card to arrive by mail [0]. Another user expected a mailed card but was pleasantly surprised to find it ready for use instantly [1]. A third user reported the fastest experience, receiving the game card in just a minute and a half [2]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: The time it takes to receive product. \ntext: I did not like the amount of time it took to receive this product.I used the card for playstation games.\n\ntitle: Ready right away \ntext: I actually expected the card to come in the mail, but it was ready instantly.\n\ntitle: Was playing the moment my card went through. \ntext: Quickest was to get a game card I found. Literally a minute and a half.\n\nSummary of the reviews: The delivery speed of the card has received mixed feedback from users. One user expressed dissatisfaction with the time it took to receive the product, indicating a delay in delivery [0]. In contrast, another user was pleasantly surprised to find that the card was ready instantly, contrary to their expectation of a mail delivery [1]. Similarly, a third user highlighted the efficiency, noting that they were able to start using the card within a minute and a half of purchase [2]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: The time it takes to receive product. \ntext: I did not like the amount of time it took to receive this product.I used the card for playstation games.\n\ntitle: When to expect it \ntext: I thought I could download the card with a code and use right away, instead I’m still waiting for the card to arrive, I guess via mail.\n\ntitle: Was playing the moment my card went through. \ntext: Quickest was to get a game card I found. Literally a minute and a half.\n\nSummary of the reviews: The delivery speed of the card has received mixed feedback from users. One user expressed dissatisfaction with the time it took to receive the product, indicating that the delay was significant enough to impact their experience [0]. Another user was under the impression that the card could be downloaded instantly with a code but found themselves still waiting for it to arrive by mail, suggesting a misunderstanding or miscommunication about the delivery method [1]. In contrast, a third user reported a very quick delivery experience, stating that they were able to start using the card within a minute and a half [2]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: The time it takes to receive product. \ntext: I did not like the amount of time it took to receive this product.I used the card for playstation games.\n\ntitle: When to expect it \ntext: I thought I could download the card with a code and use right away, instead I’m still waiting for the card to arrive, I guess via mail.\n\ntitle: Ready right away \ntext: I actually expected the card to come in the mail, but it was ready instantly.\n\nSummary of the reviews: The delivery speed of the card has received mixed feedback from users. One user expressed dissatisfaction with the lengthy wait time for the product to arrive, despite using it for PlayStation games once received [0]. Another user was disappointed to find that they could not download the card with a code for immediate use and are still waiting for it to arrive by mail [1]. In contrast, a third user was pleasantly surprised to find that the card was ready for use instantly, contrary to their expectation of a mail delivery [2]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: When to expect it \ntext: I thought I could download the card with a code and use right away, instead I’m still waiting for the card to arrive, I guess via mail.\n\ntitle: Ready right away \ntext: I actually expected the card to come in the mail, but it was ready instantly.\n\nSummary of the reviews: There are mixed experiences regarding the delivery speed of the card. One user anticipated being able to download and use the card immediately with a code but is still waiting for it to arrive by mail [0]. Conversely, another user expected the card to be mailed but found it was available for immediate use [1]."
+            },
+            {
+                "role": "assistant",
+                "content": "3.8"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: The time it takes to receive product. \ntext: I did not like the amount of time it took to receive this product.I used the card for playstation games.\n\ntitle: Ready right away \ntext: I actually expected the card to come in the mail, but it was ready instantly.\n\nSummary of the reviews: The delivery speed of the card has received mixed feedback. One user expressed dissatisfaction with the time it took to receive the product, indicating that the delay was significant enough to impact their experience negatively [0]. In contrast, another user was pleasantly surprised by the immediate availability of the card, which was ready for use instantly, contrary to their expectation of a mail delivery [1]."
+            },
+            {
+                "role": "assistant",
+                "content": "3.8"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: The time it takes to receive product. \ntext: I did not like the amount of time it took to receive this product.I used the card for playstation games.\n\ntitle: When to expect it \ntext: I thought I could download the card with a code and use right away, instead I’m still waiting for the card to arrive, I guess via mail.\n\nSummary of the reviews: The delivery speed of the card has been a point of dissatisfaction for users. One user expressed frustration with the lengthy wait time to receive the product, which they intended to use for PlayStation games [0]. Another user was disappointed to find that they could not download the card with a code for immediate use and is still waiting for the physical card to arrive by mail [1]."
+            },
+            {
+                "role": "assistant",
+                "content": "3.4"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: When to expect it \ntext: I thought I could download the card with a code and use right away, instead I’m still waiting for the card to arrive, I guess via mail.\n\ntitle: Was playing the moment my card went through. \ntext: Quickest was to get a game card I found. Literally a minute and a half.\n\nSummary of the reviews: One user expressed disappointment in the delivery speed of the card, expecting to download and use it immediately but instead having to wait for it to arrive by mail [0]. In contrast, another user praised the quick delivery, stating they were able to use the card within a minute and a half [1]."
+            },
+            {
+                "role": "assistant",
+                "content": "3.8"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: The time it takes to receive product. \ntext: I did not like the amount of time it took to receive this product.I used the card for playstation games.\n\ntitle: Was playing the moment my card went through. \ntext: Quickest was to get a game card I found. Literally a minute and a half.\n\nSummary of the reviews: The delivery speed of the card has received mixed feedback. One user expressed dissatisfaction with the time it took to receive the product, noting that they used the card for PlayStation games [0]. In contrast, another user praised the speed, stating that it took only a minute and a half to receive the game card, making it the quickest method they found [1]."
+            },
+            {
+                "role": "assistant",
+                "content": "3.6"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Ready right away \ntext: I actually expected the card to come in the mail, but it was ready instantly.\n\ntitle: Was playing the moment my card went through. \ntext: Quickest was to get a game card I found. Literally a minute and a half.\n\nSummary of the reviews: The delivery speed of the card was notably fast, with one user expressing surprise that the card was ready instantly instead of arriving by mail [0]. Another user highlighted the efficiency, stating that they were able to start playing within a minute and a half of their card being processed [1]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: When to expect it \ntext: I thought I could download the card with a code and use right away, instead I’m still waiting for the card to arrive, I guess via mail.\n\nSummary of the reviews: The user expressed disappointment in not being able to download and use the card immediately with a code, and is currently waiting for the card to arrive by mail [0]."
+            },
+            {
+                "role": "assistant",
+                "content": "3.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: The time it takes to receive product. \ntext: I did not like the amount of time it took to receive this product.I used the card for playstation games.\n\nSummary of the reviews: The user expressed dissatisfaction with the delivery speed of the card, noting that it took an unsatisfactory amount of time to receive the product [0]."
+            },
+            {
+                "role": "assistant",
+                "content": "2.6"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Ready right away \ntext: I actually expected the card to come in the mail, but it was ready instantly.\n\nSummary of the reviews: The user expressed surprise and satisfaction that the card was available immediately, contrary to their expectation of receiving it through the mail [0]."
+            },
+            {
+                "role": "assistant",
+                "content": "3.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Was playing the moment my card went through. \ntext: Quickest was to get a game card I found. Literally a minute and a half.\n\nSummary of the reviews: The user praised the delivery speed of the game card, noting that it took only a minute and a half for the card to be processed and ready for use [0]."
+            },
+            {
+                "role": "assistant",
+                "content": "2.6"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Don't buy this card -it is worthless. \ntext: Very disappointed about the lack of information about this card.  I bought one for my grandson and he couldn't use it so don't waste your time and money on this scam because you can't get a refund either.\n\ntitle: Do NOT buy this card \ntext: Can’t even redeem the code.  Will never waist my time on this card again.\n\ntitle: Meh \ntext: I don’t like that it’s hard to access two separate codes Bc it’s one purchase. I also don’t appreciate I cannot send it to the people I have bought it for. I wouldn’t buy again off Amazon.\n\nSummary of the reviews: Users have expressed significant dissatisfaction with the card, citing various issues that make it difficult to use. One user mentioned a lack of information about the card, which led to their grandson being unable to use it and highlighted the inability to get a refund, labeling it a scam [0]. Another user reported problems with redeeming the code, stating they would not waste their time on this card again [1]. Additionally, a third user found it challenging to access two separate codes from a single purchase and was frustrated by the inability to send the card to the intended recipients, concluding they would not buy it again from Amazon [2]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.8"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: this is not a card that can be given as a gift. \ntext: Can not give an actual card as a gift.  Or if you can it is very difficult to do.  Very unhappy with this purchase.\n\ntitle: Do NOT buy this card \ntext: Can’t even redeem the code.  Will never waist my time on this card again.\n\ntitle: Meh \ntext: I don’t like that it’s hard to access two separate codes Bc it’s one purchase. I also don’t appreciate I cannot send it to the people I have bought it for. I wouldn’t buy again off Amazon.\n\nSummary of the reviews: Users have expressed significant dissatisfaction with the card, primarily due to its difficulty of use. One user mentioned that giving the card as a gift is either impossible or very challenging, leading to considerable unhappiness with the purchase [0]. Another user reported an inability to redeem the code, stating they would not waste their time on this card again [1]. Additionally, a third user highlighted the inconvenience of accessing two separate codes from a single purchase and the inability to send the card to intended recipients, resulting in a decision not to buy it again from Amazon [2]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.6"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: this is not a card that can be given as a gift. \ntext: Can not give an actual card as a gift.  Or if you can it is very difficult to do.  Very unhappy with this purchase.\n\ntitle: Don't buy this card -it is worthless. \ntext: Very disappointed about the lack of information about this card.  I bought one for my grandson and he couldn't use it so don't waste your time and money on this scam because you can't get a refund either.\n\ntitle: Meh \ntext: I don’t like that it’s hard to access two separate codes Bc it’s one purchase. I also don’t appreciate I cannot send it to the people I have bought it for. I wouldn’t buy again off Amazon.\n\nSummary of the reviews: Users have expressed significant dissatisfaction with the card, primarily due to its difficulty of use and the inability to give it as a gift. One user mentioned that it is either impossible or very challenging to give the card as a gift, leading to unhappiness with the purchase [0]. Another user highlighted the lack of information about the card, which resulted in their grandson being unable to use it and the inability to obtain a refund, deeming the card worthless [1]. Additionally, a user found it problematic to access two separate codes from a single purchase and was frustrated by the inability to send the card to the intended recipients, leading to a decision not to purchase it again [2]."
+            },
+            {
+                "role": "assistant",
+                "content": "5.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: this is not a card that can be given as a gift. \ntext: Can not give an actual card as a gift.  Or if you can it is very difficult to do.  Very unhappy with this purchase.\n\ntitle: Don't buy this card -it is worthless. \ntext: Very disappointed about the lack of information about this card.  I bought one for my grandson and he couldn't use it so don't waste your time and money on this scam because you can't get a refund either.\n\ntitle: Do NOT buy this card \ntext: Can’t even redeem the code.  Will never waist my time on this card again.\n\nSummary of the reviews: Users have expressed significant dissatisfaction with the card, citing various issues that make it difficult to use. One user mentioned that it is challenging to give the card as a gift, leading to unhappiness with the purchase [0]. Another user highlighted the lack of information about the card, which resulted in their grandson being unable to use it and an inability to obtain a refund [1]. Additionally, a third user reported problems with redeeming the code, stating they would not waste their time on the card again [2]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.8"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Don't buy this card -it is worthless. \ntext: Very disappointed about the lack of information about this card.  I bought one for my grandson and he couldn't use it so don't waste your time and money on this scam because you can't get a refund either.\n\ntitle: Do NOT buy this card \ntext: Can’t even redeem the code.  Will never waist my time on this card again.\n\nSummary of the reviews: Users have expressed significant dissatisfaction with the card, citing difficulties in its usage and an inability to redeem codes. One user mentioned that they bought the card for their grandson, who was unable to use it, and highlighted the lack of information provided about the card, as well as the inability to obtain a refund [0]. Another user echoed these sentiments, stating that they could not redeem the code and would not waste their time on the card again [1]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.16"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: this is not a card that can be given as a gift. \ntext: Can not give an actual card as a gift.  Or if you can it is very difficult to do.  Very unhappy with this purchase.\n\ntitle: Do NOT buy this card \ntext: Can’t even redeem the code.  Will never waist my time on this card again.\n\nSummary of the reviews: Users have expressed significant dissatisfaction with the card, citing difficulties in both giving it as a gift and redeeming the code. One user mentioned that it is challenging to present the card as a gift, leading to unhappiness with the purchase [0]. Another user reported being unable to redeem the code and vowed never to use the card again [1]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.6"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: this is not a card that can be given as a gift. \ntext: Can not give an actual card as a gift.  Or if you can it is very difficult to do.  Very unhappy with this purchase.\n\ntitle: Don't buy this card -it is worthless. \ntext: Very disappointed about the lack of information about this card.  I bought one for my grandson and he couldn't use it so don't waste your time and money on this scam because you can't get a refund either.\n\nSummary of the reviews: Users expressed significant dissatisfaction with the card, highlighting its impracticality and difficulty in use. One user mentioned that giving the card as a gift is either impossible or extremely challenging, leading to considerable unhappiness with the purchase [0]. Another user criticized the card for its lack of clear information and usability, noting that their grandson was unable to use it and warning others against wasting their time and money, as refunds are not available [1]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.16"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Don't buy this card -it is worthless. \ntext: Very disappointed about the lack of information about this card.  I bought one for my grandson and he couldn't use it so don't waste your time and money on this scam because you can't get a refund either.\n\ntitle: Meh \ntext: I don’t like that it’s hard to access two separate codes Bc it’s one purchase. I also don’t appreciate I cannot send it to the people I have bought it for. I wouldn’t buy again off Amazon.\n\nSummary of the reviews: Several users have expressed dissatisfaction with a particular card, citing difficulties in its usage and a lack of clear information. One user mentioned that their grandson was unable to use the card and highlighted the inability to obtain a refund, labeling the purchase as a scam [0]. Another user criticized the card for being hard to access due to the need to manage two separate codes from a single purchase and noted the inconvenience of not being able to send it to the intended recipients [1]. Both users indicated they would not recommend purchasing the card again."
+            },
+            {
+                "role": "assistant",
+                "content": "4.16"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: this is not a card that can be given as a gift. \ntext: Can not give an actual card as a gift.  Or if you can it is very difficult to do.  Very unhappy with this purchase.\n\ntitle: Meh \ntext: I don’t like that it’s hard to access two separate codes Bc it’s one purchase. I also don’t appreciate I cannot send it to the people I have bought it for. I wouldn’t buy again off Amazon.\n\nSummary of the reviews: Users have expressed dissatisfaction with the card, citing difficulties in using it and an inability to give it as a gift. One user mentioned that giving the card as a gift is either impossible or very challenging, leading to significant unhappiness with the purchase [0]. Another user highlighted issues with accessing two separate codes from a single purchase and the inability to send the card to intended recipients, resulting in a decision not to buy from Amazon again [1]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.6"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Do NOT buy this card \ntext: Can’t even redeem the code.  Will never waist my time on this card again.\n\ntitle: Meh \ntext: I don’t like that it’s hard to access two separate codes Bc it’s one purchase. I also don’t appreciate I cannot send it to the people I have bought it for. I wouldn’t buy again off Amazon.\n\nSummary of the reviews: Users have expressed significant dissatisfaction with the card, citing difficulties in redeeming the code and accessing multiple codes from a single purchase [0][1]. Additionally, there are complaints about the inability to send the card to intended recipients, which has led to a decision not to purchase the card again [1]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.12"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Don't buy this card -it is worthless. \ntext: Very disappointed about the lack of information about this card.  I bought one for my grandson and he couldn't use it so don't waste your time and money on this scam because you can't get a refund either.\n\nSummary of the reviews: The user expressed significant dissatisfaction with the card, describing it as \"worthless\" and a \"scam\" due to its difficulty of use and the inability to obtain a refund. They mentioned purchasing the card for their grandson, who was unable to use it, leading to their strong recommendation against buying it [0]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.032"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: this is not a card that can be given as a gift. \ntext: Can not give an actual card as a gift.  Or if you can it is very difficult to do.  Very unhappy with this purchase.\n\nSummary of the reviews: The user expresses dissatisfaction with the card, stating that it is difficult to give as a gift and that the process of doing so is very challenging, leading to overall unhappiness with the purchase [0]."
+            },
+            {
+                "role": "assistant",
+                "content": "3.2"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Do NOT buy this card \ntext: Can’t even redeem the code.  Will never waist my time on this card again.\n\nSummary of the reviews: The user expressed frustration with the card, stating that they were unable to redeem the code and would not waste their time on it again [0]."
+            },
+            {
+                "role": "assistant",
+                "content": "2.4"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Meh \ntext: I don’t like that it’s hard to access two separate codes Bc it’s one purchase. I also don’t appreciate I cannot send it to the people I have bought it for. I wouldn’t buy again off Amazon.\n\nSummary of the reviews: The user expressed dissatisfaction with the card, highlighting difficulties in accessing two separate codes for a single purchase and the inability to send the card to the intended recipients. They concluded that they would not purchase the card from Amazon again [0]."
+            },
+            {
+                "role": "assistant",
+                "content": "3.4"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: It's a gift card lol \ntext: Well it was not really a card but a number.  While that number may be a little hard to find it does work\n\ntitle: Gift Card \ntext: This amount needs to be a choice of hard gift card, not just e Mail\n\ntitle: It's a gift card \ntext: Oh my God what an amazing concept the gift card for the exact amount of money you're willing to spend, or require as is in this case\n\nSummary of the reviews: The comments discuss the nature and format of gift cards. One user notes that although the gift card was not a physical card but rather a number, it still functions effectively [0]. Another user expresses a preference for having the option of a physical gift card rather than just an email version [1]. A third user appreciates the concept of a gift card that matches the exact amount of money desired or required [2]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: It’s a gift card \ntext: It’s a gift card...... how could it be anything but good?\n\ntitle: Gift Card \ntext: This amount needs to be a choice of hard gift card, not just e Mail\n\ntitle: It's a gift card \ntext: Oh my God what an amazing concept the gift card for the exact amount of money you're willing to spend, or require as is in this case\n\nSummary of the reviews: The comments collectively emphasize the positive aspects and flexibility of gift cards. One user highlights the inherent goodness of gift cards, suggesting that they are universally appreciated [0]. Another user points out the need for options, advocating for the availability of both physical and electronic gift cards to suit different preferences [1]. The third user praises the concept of gift cards for their ability to match the exact amount of money one is willing to spend or needs [2]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: It’s a gift card \ntext: It’s a gift card...... how could it be anything but good?\n\ntitle: It's a gift card lol \ntext: Well it was not really a card but a number.  While that number may be a little hard to find it does work\n\ntitle: It's a gift card \ntext: Oh my God what an amazing concept the gift card for the exact amount of money you're willing to spend, or require as is in this case\n\nSummary of the reviews: The comments collectively emphasize the positive aspects of gift cards, highlighting their convenience and flexibility. One user expresses a straightforward sentiment, suggesting that a gift card is inherently good due to its nature [0]. Another user clarifies that while the gift card they received was not a physical card but rather a number, it still functioned effectively, despite being somewhat difficult to locate [1]. The third user praises the concept of gift cards, appreciating their ability to match the exact amount of money one is willing to spend or needs [2]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: It’s a gift card \ntext: It’s a gift card...... how could it be anything but good?\n\ntitle: It's a gift card lol \ntext: Well it was not really a card but a number.  While that number may be a little hard to find it does work\n\ntitle: Gift Card \ntext: This amount needs to be a choice of hard gift card, not just e Mail\n\nSummary of the reviews: The comments discuss the nature and usability of gift cards. One user expresses a positive sentiment, emphasizing that a gift card is inherently good [0]. Another user clarifies that the gift card they received was not a physical card but a number, which, despite being somewhat difficult to locate, functions properly [1]. A third user suggests that there should be an option to choose between a physical gift card and an email version [2]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.12"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: It's a gift card lol \ntext: Well it was not really a card but a number.  While that number may be a little hard to find it does work\n\ntitle: Gift Card \ntext: This amount needs to be a choice of hard gift card, not just e Mail\n\nSummary of the reviews: The discussion revolves around the nature of gift cards, with one user noting that their gift card was actually a number rather than a physical card, though it was functional despite being somewhat difficult to locate [0]. Another user expressed a preference for having the option of a physical gift card rather than just an email version [1]."
+            },
+            {
+                "role": "assistant",
+                "content": "3.2"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: It’s a gift card \ntext: It’s a gift card...... how could it be anything but good?\n\ntitle: Gift Card \ntext: This amount needs to be a choice of hard gift card, not just e Mail\n\nSummary of the reviews: The first comment expresses a positive sentiment towards gift cards, suggesting that they are inherently good and beneficial [0]. The second comment, however, highlights a preference for physical gift cards over electronic ones, indicating that the option to choose between a hard gift card and an email version would be more desirable [1]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: It’s a gift card \ntext: It’s a gift card...... how could it be anything but good?\n\ntitle: It's a gift card lol \ntext: Well it was not really a card but a number.  While that number may be a little hard to find it does work\n\nSummary of the reviews: The comments discuss the nature and functionality of a gift card. One user expresses a positive sentiment, emphasizing that a gift card is inherently good [0]. Another user clarifies that although the gift card was not a physical card but rather a number, it still functions effectively, despite the number being somewhat difficult to locate [1]."
+            },
+            {
+                "role": "assistant",
+                "content": "3.6"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: It's a gift card lol \ntext: Well it was not really a card but a number.  While that number may be a little hard to find it does work\n\ntitle: It's a gift card \ntext: Oh my God what an amazing concept the gift card for the exact amount of money you're willing to spend, or require as is in this case\n\nSummary of the reviews: The discussion revolves around the nature and utility of gift cards. One user clarifies that although the gift card was not a physical card but rather a number, it still functions effectively despite being somewhat difficult to locate [0]. Another user praises the concept of gift cards, highlighting their convenience in matching the exact amount of money one is willing to spend or needs [1]."
+            },
+            {
+                "role": "assistant",
+                "content": "3.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: It’s a gift card \ntext: It’s a gift card...... how could it be anything but good?\n\ntitle: It's a gift card \ntext: Oh my God what an amazing concept the gift card for the exact amount of money you're willing to spend, or require as is in this case\n\nSummary of the reviews: The comments highlight the positive perception of gift cards, emphasizing their inherent value and flexibility. One user expresses a straightforward appreciation, suggesting that a gift card is inherently good due to its nature [0]. Another user praises the concept of gift cards, noting their practicality in allowing the giver to specify an exact amount, which can be particularly useful in various situations [1]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Gift Card \ntext: This amount needs to be a choice of hard gift card, not just e Mail\n\ntitle: It's a gift card \ntext: Oh my God what an amazing concept the gift card for the exact amount of money you're willing to spend, or require as is in this case\n\nSummary of the reviews: The discussion revolves around the nature and format of gift cards. One user emphasizes the need for a physical gift card option, rather than just an email version, suggesting that recipients should have a choice between the two formats [0]. Another user praises the concept of gift cards, highlighting their convenience and flexibility in terms of specifying the exact amount of money to be spent or required [1]."
+            },
+            {
+                "role": "assistant",
+                "content": "3.8"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: It's a gift card lol \ntext: Well it was not really a card but a number.  While that number may be a little hard to find it does work\n\nSummary of the reviews: The comment discusses the nature of a gift card, clarifying that it was not a physical card but rather a number. Despite the potential difficulty in locating this number, it is confirmed to be functional [0]."
+            },
+            {
+                "role": "assistant",
+                "content": "2.6"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: It’s a gift card \ntext: It’s a gift card...... how could it be anything but good?\n\nSummary of the reviews: The comment emphasizes the positive nature of gift cards, suggesting that they are inherently good and beneficial. The user implies that the very essence of a gift card ensures its value and appeal [0]."
+            },
+            {
+                "role": "assistant",
+                "content": "2.2"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Gift Card \ntext: This amount needs to be a choice of hard gift card, not just e Mail\n\nSummary of the reviews: The user suggests that the amount should be available as a physical gift card, not just an email version [0]."
+            },
+            {
+                "role": "assistant",
+                "content": "2.6"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: It's a gift card \ntext: Oh my God what an amazing concept the gift card for the exact amount of money you're willing to spend, or require as is in this case\n\nSummary of the reviews: The comment praises the concept of a gift card, highlighting its flexibility in allowing the giver to choose the exact amount of money they wish to spend or require [0]."
+            },
+            {
+                "role": "assistant",
+                "content": "2.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Will buy again \ntext: Easy to use. Faster than going to a retail store to purchase a card\n\ntitle: Never buying again \ntext: Will never buy online again the code is saying already in use\n\ntitle: Another satisfied customer \ntext: SUPER efficient, and the fastest way to start buying in-game stuff! This has been my second, or third. I will most definitely be buying again soon\n\nSummary of the reviews: The comments reflect mixed experiences regarding the decision to purchase again. One user appreciates the convenience and speed of buying online, stating it is faster than visiting a retail store and expressing satisfaction with the ease of use [0]. Another user had a negative experience, reporting that the code they received was already in use and declaring they will never buy online again [1]. A third user is highly satisfied with the efficiency of the service, mentioning multiple positive experiences and affirming their intention to continue purchasing in the future [2]."
+            },
+            {
+                "role": "assistant",
+                "content": "3.4"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Smooth purchase \ntext: Very simple to use , great deal. Yes I will buy again.\n\ntitle: Never buying again \ntext: Will never buy online again the code is saying already in use\n\ntitle: Another satisfied customer \ntext: SUPER efficient, and the fastest way to start buying in-game stuff! This has been my second, or third. I will most definitely be buying again soon\n\nSummary of the reviews: The feedback on whether customers will purchase again is mixed. One user expressed satisfaction with the simplicity and value of their purchase, stating they will buy again [0]. Another user had a negative experience due to issues with a code already being in use and declared they will never buy online again [1]. A third user praised the efficiency and speed of the service, indicating they have made multiple purchases and will continue to do so in the future [2]."
+            },
+            {
+                "role": "assistant",
+                "content": "3.8"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Smooth purchase \ntext: Very simple to use , great deal. Yes I will buy again.\n\ntitle: Will buy again \ntext: Easy to use. Faster than going to a retail store to purchase a card\n\ntitle: Another satisfied customer \ntext: SUPER efficient, and the fastest way to start buying in-game stuff! This has been my second, or third. I will most definitely be buying again soon\n\nSummary of the reviews: Users expressed high satisfaction with their purchasing experiences, highlighting the ease of use and efficiency of the process. One user appreciated the simplicity and great deal, confirming they would buy again [0]. Another user found the process faster than visiting a retail store and indicated they would make future purchases [1]. A third user emphasized the efficiency and speed of the service, noting it was their second or third purchase and they would definitely buy again soon [2]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Smooth purchase \ntext: Very simple to use , great deal. Yes I will buy again.\n\ntitle: Will buy again \ntext: Easy to use. Faster than going to a retail store to purchase a card\n\ntitle: Never buying again \ntext: Will never buy online again the code is saying already in use\n\nSummary of the reviews: Two users expressed satisfaction with their purchases, highlighting the ease of use and convenience compared to retail stores, and confirmed they would buy again [0][1]. However, one user reported a negative experience with an already-used code and stated they would not purchase online again [2]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Will buy again \ntext: Easy to use. Faster than going to a retail store to purchase a card\n\ntitle: Never buying again \ntext: Will never buy online again the code is saying already in use\n\nSummary of the reviews: One user expressed satisfaction with their online purchase, highlighting the convenience and speed compared to visiting a retail store [0]. Conversely, another user reported a negative experience, stating they would not buy online again due to receiving a code that was already in use [1]."
+            },
+            {
+                "role": "assistant",
+                "content": "3.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Smooth purchase \ntext: Very simple to use , great deal. Yes I will buy again.\n\ntitle: Never buying again \ntext: Will never buy online again the code is saying already in use\n\nSummary of the reviews: One user expressed satisfaction with their purchase, highlighting the simplicity of the process and the great deal they received, and confirmed their intention to buy again [0]. In contrast, another user reported a negative experience, stating that they would never buy online again due to receiving a code that was already in use [1]."
+            },
+            {
+                "role": "assistant",
+                "content": "3.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Smooth purchase \ntext: Very simple to use , great deal. Yes I will buy again.\n\ntitle: Will buy again \ntext: Easy to use. Faster than going to a retail store to purchase a card\n\nSummary of the reviews: Both users expressed satisfaction with their purchasing experience, highlighting the ease of use and convenience. One user mentioned that the process was very simple and they got a great deal, confirming their intention to buy again [0]. The other user appreciated the speed of the transaction compared to visiting a retail store and also stated they would purchase again [1]."
+            },
+            {
+                "role": "assistant",
+                "content": "3.6"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Will buy again \ntext: Easy to use. Faster than going to a retail store to purchase a card\n\ntitle: Another satisfied customer \ntext: SUPER efficient, and the fastest way to start buying in-game stuff! This has been my second, or third. I will most definitely be buying again soon\n\nSummary of the reviews: Both users expressed satisfaction with their purchasing experiences, highlighting the convenience and efficiency of the process. One user appreciated the ease of use and the speed compared to visiting a retail store [0]. The other user emphasized the efficiency and speed of buying in-game items, noting that they have already made multiple purchases and plan to continue doing so [1]."
+            },
+            {
+                "role": "assistant",
+                "content": "3.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Smooth purchase \ntext: Very simple to use , great deal. Yes I will buy again.\n\ntitle: Another satisfied customer \ntext: SUPER efficient, and the fastest way to start buying in-game stuff! This has been my second, or third. I will most definitely be buying again soon\n\nSummary of the reviews: Both users expressed high satisfaction with their purchasing experiences, highlighting the ease and efficiency of the process. The first user appreciated the simplicity and value of the deal, confirming their intention to buy again [0]. Similarly, the second user praised the efficiency and speed of the service, noting that they have already made multiple purchases and plan to continue doing so in the future [1]."
+            },
+            {
+                "role": "assistant",
+                "content": "3.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Never buying again \ntext: Will never buy online again the code is saying already in use\n\ntitle: Another satisfied customer \ntext: SUPER efficient, and the fastest way to start buying in-game stuff! This has been my second, or third. I will most definitely be buying again soon\n\nSummary of the reviews: One user expressed dissatisfaction with their online purchase, citing an issue with a code that was already in use and stating they will never buy online again [0]. In contrast, another user praised the efficiency and speed of the service, mentioning that this was their second or third purchase and affirming their intention to buy again soon [1]."
+            },
+            {
+                "role": "assistant",
+                "content": "3.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Will buy again \ntext: Easy to use. Faster than going to a retail store to purchase a card\n\nSummary of the reviews: The user expressed satisfaction with the ease of use and the convenience of purchasing a card online, noting that it is faster than going to a retail store. They indicated a likelihood of making future purchases [0]."
+            },
+            {
+                "role": "assistant",
+                "content": "3.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Smooth purchase \ntext: Very simple to use , great deal. Yes I will buy again.\n\nSummary of the reviews: The user found the purchase process to be very simple and appreciated the great deal they received, indicating that they would buy again [0]."
+            },
+            {
+                "role": "assistant",
+                "content": "2.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Never buying again \ntext: Will never buy online again the code is saying already in use\n\nSummary of the reviews: The user expressed dissatisfaction with their online purchase, stating that they will not buy again due to an issue where the code provided was already in use [0]."
+            },
+            {
+                "role": "assistant",
+                "content": "2.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Another satisfied customer \ntext: SUPER efficient, and the fastest way to start buying in-game stuff! This has been my second, or third. I will most definitely be buying again soon\n\nSummary of the reviews: The user expresses high satisfaction with the efficiency and speed of the purchasing process for in-game items, indicating that this is their second or third purchase and affirming their intention to buy again in the near future [0]."
+            },
+            {
+                "role": "assistant",
+                "content": "3.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Happy Child!! \ntext: Easy access to a card to make an child happy 😃\n\ntitle: Quick and easy \ntext: Super fast,do t have to go to the store within seconds the child has the cards\n\ntitle: Thumbs up! \ntext: My son loves these cards for his game and they always are easy to access\n\ntitle: Game Time! \ntext: Of course my 15 year old Gamer loves whenever I purchase these cards for him.\n\nSummary: Young children appear to enjoy receiving these cards, as they are easily accessible and can be obtained quickly, making them a convenient option for parents [0][1]. One user mentioned that their son loves these cards for his game, highlighting their popularity among young gamers [2]. Another user noted that their 15-year-old gamer also appreciates these cards, indicating that they are well-received by children in this age group [3]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Card came though almost instantly. However, I still ... \ntext: Card came though almost instantly. However, I still insist that Sony is a rip off company and $10 won't really get you anything on the Playstation store.\n\ntitle: Perfect \ntext: This card falls right in line with most purchases without breaking a short wallet. I hope they keep these cards in rotation as they often then to be unavailable sometimes.\n\ntitle: Don't buy this card -it is worthless. \ntext: Very disappointed about the lack of information about this card.  I bought one for my grandson and he couldn't use it so don't waste your time and money on this scam because you can't get a refund either.\n\ntitle: $25 playstation store card that is worth $25 \ntext: It's a $25 playstation store card. It allows you to purchase things through the playstation store to the value of $25 dollars. The $25 value is what attracted me as I needed $25 worth and the $25 card was worth $25. Y'all be asking for reviews on weird stuff sometimes.\n\nSummary: Opinions on whether the card is worth the money are mixed. One user feels that Sony overcharges and that $10 won't buy much on the PlayStation store, suggesting dissatisfaction with the value offered [0]. Another user appreciates the card for its affordability and hopes it remains available, indicating satisfaction with its value [1]. Conversely, a third user labels the card as worthless, citing a lack of information and an inability to get a refund, which led to disappointment [2]. Lastly, a user straightforwardly states that a $25 card provides $25 worth of purchasing power on the PlayStation store, implying that the card delivers exactly what it promises [3]."
+            },
+            {
+                "role": "assistant",
+                "content": "3.8"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Don't buy this card -it is worthless. \ntext: Very disappointed about the lack of information about this card.  I bought one for my grandson and he couldn't use it so don't waste your time and money on this scam because you can't get a refund either.\n\ntitle: Do NOT buy this card \ntext: Can’t even redeem the code.  Will never waist my time on this card again.\n\ntitle: Do b \ntext: The card didn't work and couldn't get a refund. Bad customer service and no refund\n\ntitle: DO NOT GET THIS!!! (SCAM!!!!) \ntext: I got this card a $25 card and a $10 card, the $25 card said that it has already been redeemed and then I never even got the code for the $10 one! These are just rip offs, so don’t go out spending your money on these because you can’t even return them.\n\nSummary: Several users have expressed significant dissatisfaction with a particular card, describing it as a scam and a waste of money. One user mentioned that the card was purchased for their grandson but could not be used, and they were unable to get a refund, highlighting a lack of information and poor customer service [0]. Another user reported that they could not redeem the code and vowed never to waste their time on this card again [1]. A third user echoed similar sentiments, stating that the card did not work and they could not obtain a refund, criticizing the customer service [2]. Lastly, a user shared their experience of purchasing two cards, one of which was already redeemed, and the other did not provide a code, labeling the cards as rip-offs and emphasizing the inability to return them [3]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.0"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: How to redeem the card \ntext: it was good but it was a little hard to redeem it\n\ntitle: Buying is easy, Redeeming is simple \ntext: Easy to buy fast to claim and digital code was simple to redeem on PlayStation.com.\n\ntitle: ITS SO HARD TO REDEEM \ntext: Why does it have to be in a place I can never find it at all and it always will never work\n\ntitle: Easy to claim \ntext: Once I got my code by email, I was able to claim it. I haven't had any problem so far. Will continue purchasing these cards. They are easy to claim.\n\nSummary: Opinions on the ease of redeeming cards vary among users. Some users find the process straightforward and simple, particularly when redeeming digital codes on platforms like PlayStation.com, where the process is described as fast and easy [1][3]. However, others have experienced difficulties, citing issues with locating where to redeem the code and encountering problems that prevent successful redemption [0][2]. Overall, while some users report a seamless experience, others face significant challenges in redeeming their cards."
+            },
+            {
+                "role": "assistant",
+                "content": "4.4"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: It’s a gift card \ntext: It’s a gift card...... how could it be anything but good?\n\ntitle: It's a gift card lol \ntext: Well it was not really a card but a number.  While that number may be a little hard to find it does work\n\ntitle: Gift Card \ntext: This amount needs to be a choice of hard gift card, not just e Mail\n\ntitle: It's a gift card \ntext: Oh my God what an amazing concept the gift card for the exact amount of money you're willing to spend, or require as is in this case\n\nSummary: The comments collectively discuss various aspects of gift cards. One user emphasizes the inherent goodness of gift cards, suggesting that they are universally positive [0]. Another user points out that while the gift card they received was actually a number rather than a physical card, it was still functional despite being somewhat difficult to locate [1]. A third user expresses a preference for having the option to choose between a physical gift card and an email version, indicating a desire for more flexibility in the format of the gift card [2]. Lastly, a user praises the concept of gift cards for their ability to match the exact amount of money one is willing to spend or require [3]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.8"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "\n      You will be given several user reviews from Amazon, followed by a summary of these reviews.\n\n      Your task is to rate the summary on one metric.\n\n      Please read and understand these instructions carefully.\n\n      Evaluation Criteria:\n      Information Coverage (1-5) - How well the summary captures and clearly describes one or several key characteristics of the product. A high-quality\n      summary should convey the important features, benefits, or drawbacks of the product as highlighted in the reviews. It should provide a rich and \n      accurate depiction of key points.\n\n      Pay attention: The most important consideration is how effectively the summary communicates the product's key characteristics. The clearer and \n      more richly it conveys these characteristics, the higher the score. If it fails to adequately describe the product's features, it should receive \n      a low score.\n\n      Evaluation Steps:\n      1. Carefully read the user reviews and identify the main facts, details, and sentiments they present.\n      2. Note the important features, benefits, or drawbacks mentioned in the reviews.\n      3. Read the summary and compare it to the reviews. Ensure the summary clearly and richly describes the key points relevant to the product \n      without including irrelevant information.\n      4. Identify any important details or characteristics of the product that are missing from the summary.\n\n      Rate the summary based on how well it covers and conveys the important information from the reviews. The more clearly and richly the summary \n      describes the relevant characteristics, the higher the score.\n\n      Also, ignore the '...' in the summary.\n"
+            },
+            {
+                "role": "user",
+                "content": "Reviews: \n\ntitle: Smooth purchase \ntext: Very simple to use , great deal. Yes I will buy again.\n\ntitle: Will buy again \ntext: Easy to use. Faster than going to a retail store to purchase a card\n\ntitle: Never buying again \ntext: Will never buy online again the code is saying already in use\n\ntitle: Another satisfied customer \ntext: SUPER efficient, and the fastest way to start buying in-game stuff! This has been my second, or third. I will most definitely be buying again soon\n\nSummary: The comments on whether users will purchase again reveal a generally positive sentiment, with three out of four users expressing their intention to make future purchases. One user appreciated the simplicity and great deal, confirming they will buy again [0]. Another user found the process faster than going to a retail store and stated they will buy again [1]. A third user highlighted the efficiency and speed of the service, mentioning they have already made multiple purchases and will definitely buy again soon [3]. However, one user had a negative experience with a code issue and stated they will never buy online again [2]."
+            },
+            {
+                "role": "assistant",
+                "content": "4.0"
+            }
+        ]
     }
 ]
